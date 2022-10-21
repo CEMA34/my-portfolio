@@ -37,7 +37,7 @@
 
 /* General styles */
 
-/* endable this to add smooth scrolling */
+
 html {
     scroll-behavior: smooth;
 } 
@@ -50,6 +50,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 section {
@@ -275,6 +276,7 @@ header {
         margin: auto;
         display: none;
     }
+
 }
 
 @media (min-width: 600px) {
@@ -637,6 +639,20 @@ header {
     line-height: 25px;
 }
 
+@media(max-width:600px) {
+    .project-details-para{
+        height: auto;
+    }
+
+    .homepage-link{
+        width: 100px;
+    }
+
+    .github-link{
+        width: 100px;
+    }
+}
+
 
 
 
@@ -650,14 +666,14 @@ header {
 
     .myProjects img{
         height: 300px;
-        width: 400px;
+        width: 450px;
     }
 
     .myProjects h2{
         font-size: 45px;
     }
     .myProjects p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
