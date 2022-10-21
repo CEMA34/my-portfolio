@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    
 }
 
 /* Custom Properties, update these for your own design */
@@ -40,6 +41,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 } 
 
 
@@ -50,7 +52,6 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-    overflow-x: hidden;
 }
 
 section {
@@ -659,7 +660,7 @@ header {
 @media(max-width:1000px) {
     .myProjects div{
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-row-gap: 20px;
     margin: 0 auto;
     }
