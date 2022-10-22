@@ -652,6 +652,10 @@ header {
     .github-link{
         width: 100px;
     }
+
+    .my-services hr{
+        width: 70%;
+    }
 }
 
 
@@ -675,10 +679,6 @@ header {
     }
     .myProjects p{
         font-size: 18px;
-    }
-
-    .my-services hr{
-        width: 70%;
     }
 
 
