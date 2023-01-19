@@ -1,256 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ahmet Cem Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Ahmet Cem</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="./img/man.png" alt="" class="intro__img">
-        </section>
-        
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet Cem Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <h4>My Skills And Things I Can Do</h4>
-            <hr>
-            <div class="services">
-                
-                <div class="service">
-                    <img src="img/html.png" alt="">
-                    <h3>HTML</h3>
-                </div> 
-                
-                <div class="service">
-                    <img src="img/js.png" alt="">
-                    <h3>JavaScript</h3>
-                </div> 
-                
-                <div class="service">
-                    <img src="img/api.png" alt="">
-                    <h3>APIs</h3>
-                </div>
+</head>
 
-                <div class="service">
-                    <img src="img/responsive-design.png" alt="">
-                    <h3>Responsive Design</h3>
-                </div>
-
-                <div class="service">
-                    <img src="img/ui-design.png" alt="">
-                    <h3>UI Design</h3>
-                </div>
-
-                <div class="service">
-                    <img src="img/css-3.png" alt="">
-                    <h3>CSS</h3>
-                </div>
-
-                <div class="service">
-                    <img src="img/react.png" alt="">
-                    <h3>React</h3>
-                </div>
-
-                <div class="service">
-                    <img src="img/github (4).png" alt="">
-                    <h3>Git</h3>
-                </div>
-
-            </div> 
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-
-        <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">a front-end developer based out of Istanbul</p>
-            
-            <div class="about-me__body">
-                <p>Front-end developer with experience developing websites and web applications. Passionate about JavaScript,React.js and CSS.</p>
-            </div>
-            
-            <img src="img/question.png" alt="" class="about-me__img">
-         </section>
-
-        <section class="myProjects" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-            <div class="myProjects-inner-div">
-                    <div>
-                        <p class="project-title">Manage Landing Page</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                        </div>
-                        <a target="_blank" href="https://cema34.github.io/manage-landing-page/"><img class="projectImage" src="img/manage-landin-page-overview.webp" alt=""/></a>
-                        <p class="project-details-para">This solo project was a great test for my responsive skills. There were lots of small details and content shifts for different screen sizes. It also contains a carousel that i did in JavaScript for the mobile version of the website.</p>
-                        <div class="github-link-div">
-                            <a class="homepage-link" href="https://cema34.github.io/manage-landing-page/" target="_blank">Homepage</a>
-                            <a class="github-link" href="https://github.com/CEMA34/manage-landing-page" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <p class="project-title">E-commerce Product Page</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                        </div>
-                        <a target="_blank" href="https://cema34.github.io/ecommerce-product-page/"><img class="projectImage" src="img/e-commerce-desktop-preview.jpg" alt=""/></a>
-                        <p class="project-details-para">Making this page responsive challenged me quite a bit but i managed to do it. There were also lots of places that i had to push myself in JavaScript. Users can choose the quantity of the product and add it in the shopping cart. The product cart is also fully functional and it shows the user which slide they are on with product thumbnails. </p>
-
-                            <div class="github-link-div">
-                                <a class="homepage-link" href="https://cema34.github.io/ecommerce-product-page/" target="_blank">Homepage</a>
-                                <a class="github-link" href="https://github.com/CEMA34/ecommerce-product-page"   target="_blank">GitHub</a>
-                            </div>
-                     </div>
-
-                    <div>
-                        <p class="project-title">IP-Address-Tracker</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>API</p>
-                            <p>JavaScript</p>
-                        </div>
-                        <a target="_blank" href="https://cema34.github.io/IP-Address-Tracker/"><img class="projectImage" src="img/ip-address-tracker-desktop-preview.jpg" alt=""/></a>
-                        <p class="project-details-para">In this challenge i had to use two seperate APIs together (<a class="project-link" href="https://geo.ipify.org/">IP Geolocation API by IPify</a> and <a class="project-link" href="https://leafletjs.com/">LeafletJS</a>) to create an IP Adress Tracking app with generated map. Your Adblocker must be disabled in order for APIs to work.</p>
-
-                        <div class="github-link-div">
-                            <a class="homepage-link" href="https://cema34.github.io/IP-Address-Tracker/" target="_blank">Homepage</a>
-                            <a class="github-link" href="https://github.com/CEMA34/IP-Address-Tracker" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <p class="project-title">Random Password Generator</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>React</p>
-                            <p>CSS</p>
-                        </div>
-                        <a target="_blank" href="https://cema34.github.io/passwordgenerator/"><img class="projectImage password-generator" src="img/random-password-generator.jpg" alt=""/></a>
-                        <p class="project-details-para">This was a solo project from <a class="project-link" href="https://scrimba.com/">The Frontend Developer Path from Scrimba</a>. The challenge was doing this with using just JavaScript but i decided to do it all with React to challenge my React skills. I also added a button that switches from dark mode to light mode and two copy buttons for generated passwords that originally was not in the challenge.</p>
-
-                        <div class="github-link-div">
-                            <a class="homepage-link" href="https://cema34.github.io/passwordgenerator/" target="_blank">Homepage</a>
-                            <a class="github-link" href="https://github.com/CEMA34/passwordgenerator" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <p class="project-title">Easybank Landing Page</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>HTML</p>
-                            <p>CSS</p>
-                        </div>
-                        <a target="_blank" href="https://cema34.github.io/easybank-landing-page/"><img class="projectImage" src="img/easybank-landing-page-preview.jpg" alt=""/></a>
-                        <p class="project-details-para">This project provided a nice test for my layout skills.  It is responsive and has both mobile and desktop design. </p>
-
-                        <div class="github-link-div">
-                            <a class="homepage-link" href="https://cema34.github.io/easybank-landing-page/" target="_blank">Homepage</a>
-                            <a class="github-link" href="https://github.com/CEMA34/easybank-landing-page" target="_blank">GitHub</a>
-                        </div>
-                
-                    </div>
-
-                    <div>
-                        <p class="project-title">Restaurant Ordering App</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                        </div>
-                        <a href="https://cema34.github.io/restaurant-order-app/"><img class="projectImage order-app" src="img/cutt-pre-checkout-state (1).jpg" alt=""/></a>
-                        <p class="project-details-para"> In this project i rendered pretty much everything just by using JavaScript. User is able to add items from rendered menu.It also has a payment modal with compulsory form inputs. </p>
-
-                        <div class="github-link-div">
-                            <a class="homepage-link" href="https://cema34.github.io/restaurant-order-app/" target="_blank">Homepage</a>
-                            <a class="github-link" href="https://github.com/CEMA34/restaurant-order-app" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div>
-                    <p class="project-title">Movie Search App (Coming Soon)</p>
-                        <hr>
-                        <div class="myProjects-second-inner-div"> 
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>API</p>
-                            <p>JavaScript</p>
-                        </div>
-                        
-                        <img class="projectImage order-app movie-search-app" src="img/movie-search-app.png" alt=""/>
-                        <div class="movie-search-app-div">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                            optio, eaque rerum! Provident similique accusantium nemo autem.</p>
-
-                        <div class="github-link-div">
-                            <a class="homepage-link">Homepage</a>
-                            <a class="github-link">GitHub</a>
-                        </div>
-                        </div>
-                    </div>
-                
-            </div>
-        </section>
-        
-        <footer class="footer">
-            
-            <a href="mailto:ahmetcemaydn@gmail.com" class="footer__link">ahmetcemaydn@gmail.com</a>
-            <ul class="social-list">
-
-                <li class="social-list__item">
-                    <a target="_blank"  class="social-list__link" href="https://github.com/CEMA34">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-
-                <li class="social-list__item">
-                    <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/ahmet-cem-ayd%C4%B1n-518827254/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
-        </footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Ahmet Cem</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="./img/man.png" alt="" class="intro__img">
+    </section>
+
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <h4>My Skills And Things I Can Do</h4>
+        <hr>
+        <div class="services">
+
+            <div class="service">
+                <img src="img/html.png" alt="">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/js.png" alt="">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/api.png" alt="">
+                <h3>APIs</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/responsive-design.png" alt="">
+                <h3>Responsive Design</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/ui-design.png" alt="">
+                <h3>UI Design</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/css-3.png" alt="">
+                <h3>CSS</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/react.png" alt="">
+                <h3>React</h3>
+            </div>
+
+            <div class="service">
+                <img src="img/github (4).png" alt="">
+                <h3>Git</h3>
+            </div>
+
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">a front-end developer based out of Istanbul</p>
+
+        <div class="about-me__body">
+            <p>Front-end developer with experience developing websites and web applications. Passionate about
+                JavaScript,React.js and CSS.</p>
+        </div>
+
+        <img src="img/question.png" alt="" class="about-me__img">
+    </section>
+
+    <section class="myProjects" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="myProjects-inner-div">
+
+            <div>
+                <p class="project-title">Emlock Landing Page</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>Next.js</p>
+                    <p>Framer Motion</p>
+                    <p>CSS</p> 
+                </div>
+                <a target="_blank" href="https://emlock-landing-page.vercel.app/"><img class="projectImage"
+                        src="img/emlock.png" alt="#" /></a>
+                <p class="project-details-para">This is a landing page that i designed and coded myself for a small business.
+                    It is done with <b>Next.js</b> and used <b>Framer Motion</b> for the animations. It is also fully responsive for all screen sizes.
+                </p>
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://emlock-landing-page.vercel.app/"
+                        target="_blank">Homepage</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="project-title">Framer Motion Landing Page</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>Framer Motion</p>
+                    <p>React.js</p>
+                    <p>CSS</p>
+                </div>
+                <a target="_blank" href="https://cema34.github.io/framer-motion/"><img class="projectImage"
+                        src="img/framer-motion.png" alt="" /></a>
+                <p class="project-details-para">In this project i created the landing page of the <b>Framer Motion</b> website from scratch.
+                    The project contains many complex animations and lots of code that is coded in <b>React.js.</b> </p>
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/framer-motion/"
+                        target="_blank">Homepage</a>
+                </div>
+            </div>
+
+
+            <div>
+                <p class="project-title">Manage Landing Page</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+                <a target="_blank" href="https://cema34.github.io/manage-landing-page/"><img class="projectImage"
+                        src="img/manage-landin-page-overview.webp" alt="" /></a>
+                <p class="project-details-para">This solo project was a great test for my responsive skills. There were
+                    lots of small details and content shifts for different screen sizes. It also contains a carousel
+                    that i did in JavaScript for the mobile version of the website.</p>
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/manage-landing-page/"
+                        target="_blank">Homepage</a>
+                    <a class="github-link" href="https://github.com/CEMA34/manage-landing-page"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="project-title">E-commerce Product Page</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+                <a target="_blank" href="https://cema34.github.io/ecommerce-product-page/"><img class="projectImage"
+                        src="img/e-commerce-desktop-preview.jpg" alt="" /></a>
+                <p class="project-details-para">Making this page responsive challenged me quite a bit but i managed to
+                    do it. There were also lots of places that i had to push myself in JavaScript. Users can choose the
+                    quantity of the product and add it in the shopping cart. The product cart is also fully functional
+                    and it shows the user which slide they are on with product thumbnails. </p>
+
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/ecommerce-product-page/"
+                        target="_blank">Homepage</a>
+                    <a class="github-link" href="https://github.com/CEMA34/ecommerce-product-page"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="project-title">IP-Address-Tracker</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>API</p>
+                    <p>JavaScript</p>
+                </div>
+                <a target="_blank" href="https://cema34.github.io/IP-Address-Tracker/"><img class="projectImage"
+                        src="img/ip-address-tracker-desktop-preview.jpg" alt="" /></a>
+                <p class="project-details-para">In this challenge i had to use two seperate APIs together (<a
+                        class="project-link" href="https://geo.ipify.org/">IP Geolocation API by IPify</a> and <a
+                        class="project-link" href="https://leafletjs.com/">LeafletJS</a>) to create an IP Adress
+                    Tracking app with generated map. Your Adblocker must be disabled in order for APIs to work.</p>
+
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/IP-Address-Tracker/"
+                        target="_blank">Homepage</a>
+                    <a class="github-link" href="https://github.com/CEMA34/IP-Address-Tracker"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="project-title">Random Password Generator</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>React</p>
+                    <p>CSS</p>
+                </div>
+                <a target="_blank" href="https://cema34.github.io/passwordgenerator/"><img
+                        class="projectImage password-generator" src="img/random-password-generator.jpg" alt="" /></a>
+                <p class="project-details-para">This was a solo project from <a class="project-link"
+                        href="https://scrimba.com/">The Frontend Developer Path from Scrimba</a>. The challenge was
+                    doing this with using just JavaScript but i decided to do it all with React to challenge my React
+                    skills. I also added a button that switches from dark mode to light mode and two copy buttons for
+                    generated passwords that originally was not in the challenge.</p>
+
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/passwordgenerator/"
+                        target="_blank">Homepage</a>
+                    <a class="github-link" href="https://github.com/CEMA34/passwordgenerator" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="project-title">Easybank Landing Page</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+                <a target="_blank" href="https://cema34.github.io/easybank-landing-page/"><img class="projectImage"
+                        src="img/easybank-landing-page-preview.jpg" alt="" /></a>
+                <p class="project-details-para">This project provided a nice test for my layout skills. It is responsive
+                    and has both mobile and desktop design. </p>
+
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/easybank-landing-page/"
+                        target="_blank">Homepage</a>
+                    <a class="github-link" href="https://github.com/CEMA34/easybank-landing-page"
+                        target="_blank">GitHub</a>
+                </div>
+
+            </div>
+
+            <div>
+                <p class="project-title">Restaurant Ordering App</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+                <a href="https://cema34.github.io/restaurant-order-app/"><img class="projectImage order-app"
+                        src="img/cutt-pre-checkout-state (1).jpg" alt="" /></a>
+                <p class="project-details-para"> In this project i rendered pretty much everything just by using
+                    JavaScript. User is able to add items from rendered menu.It also has a payment modal with compulsory
+                    form inputs. </p>
+
+                <div class="github-link-div">
+                    <a class="homepage-link" href="https://cema34.github.io/restaurant-order-app/"
+                        target="_blank">Homepage</a>
+                    <a class="github-link" href="https://github.com/CEMA34/restaurant-order-app"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="project-title">Movie Search App (Coming Soon)</p>
+                <hr>
+                <div class="myProjects-second-inner-div">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>API</p>
+                    <p>JavaScript</p>
+                </div>
+
+                <img class="projectImage order-app movie-search-app" src="img/movie-search-app.png" alt="" />
+                <div class="movie-search-app-div">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+
+                    <div class="github-link-div">
+                        <a class="homepage-link">Homepage</a>
+                        <a class="github-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <a href="mailto:ahmetcemaydn@gmail.com" class="footer__link">ahmetcemaydn@gmail.com</a>
+        <ul class="social-list">
+
+            <li class="social-list__item">
+                <a target="_blank" class="social-list__link" href="https://github.com/CEMA34">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank"
+                    href="https://www.linkedin.com/in/ahmet-cem-ayd%C4%B1n-518827254/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
 </html>
